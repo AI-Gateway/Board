@@ -21,7 +21,7 @@ TargetOutputMedium=BOM
 VariantName=Default
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Wondershare PDFelement
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print To CutePDF Writer
 OutputMedium1_Type=Printer
