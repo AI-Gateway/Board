@@ -377,9 +377,26 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CMQTTOHN
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for AI Gateway - Carrier\AI Gateway - Carrier.NET
-DItemRevisionGUID=
+[ProjectVariant1]
+UniqueID=395EB44B-2C5B-4784-9AD0-A7F267486C61
+Description=AI_Gateway_Carrier_Proto
+AllowFabrication=0
+ParameterCount=0
+VariationCount=13
+Variation1=Designator=U4|UniqueId=\WCCJKCPB\TXEQHYQW|Kind=1|AlternatePart= 
+Variation2=Designator=C46|UniqueId=\WCCJKCPB\CTGZFRWO|Kind=1|AlternatePart= 
+Variation3=Designator=C45|UniqueId=\WCCJKCPB\AZIWSKBF|Kind=1|AlternatePart= 
+Variation4=Designator=FB1|UniqueId=\WCCJKCPB\SFQJILYQ|Kind=1|AlternatePart= 
+Variation5=Designator=R58|UniqueId=\WCCJKCPB\MXPISJIN|Kind=1|AlternatePart= 
+Variation6=Designator=R59|UniqueId=\WCCJKCPB\QDOIGBTX|Kind=1|AlternatePart= 
+Variation7=Designator=R60|UniqueId=\WCCJKCPB\XGTPJPGS|Kind=1|AlternatePart= 
+Variation8=Designator=C47|UniqueId=\WCCJKCPB\YRJFRQHH|Kind=1|AlternatePart= 
+Variation9=Designator=R61|UniqueId=\WCCJKCPB\LKYICYDG|Kind=1|AlternatePart= 
+Variation10=Designator=R54|UniqueId=\WCCJKCPB\FEFLHCCQ|Kind=1|AlternatePart= 
+Variation11=Designator=R55|UniqueId=\WCCJKCPB\LSUWHKIT|Kind=1|AlternatePart= 
+Variation12=Designator=R56|UniqueId=\WCCJKCPB\VTRYDCXH|Kind=1|AlternatePart= 
+Variation13=Designator=R57|UniqueId=\WCCJKCPB\DAENCFGI|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Parameter1]
 Name=Revision
