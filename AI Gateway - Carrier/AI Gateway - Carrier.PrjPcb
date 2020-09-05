@@ -382,7 +382,7 @@ UniqueID=395EB44B-2C5B-4784-9AD0-A7F267486C61
 Description=AI_Gateway_Carrier_Proto
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
+VariationCount=20
 Variation1=Designator=U4|UniqueId=\WCCJKCPB\TXEQHYQW|Kind=1|AlternatePart= 
 Variation2=Designator=C46|UniqueId=\WCCJKCPB\CTGZFRWO|Kind=1|AlternatePart= 
 Variation3=Designator=C45|UniqueId=\WCCJKCPB\AZIWSKBF|Kind=1|AlternatePart= 
@@ -398,6 +398,11 @@ Variation12=Designator=R56|UniqueId=\WCCJKCPB\VTRYDCXH|Kind=1|AlternatePart=
 Variation13=Designator=R57|UniqueId=\WCCJKCPB\DAENCFGI|Kind=1|AlternatePart= 
 Variation14=Designator=R36|UniqueId=\DKUROFHD\CDMSKJMV|Kind=0|AlternatePart= 
 Variation15=Designator=R37|UniqueId=\DKUROFHD\NFABDGGC|Kind=0|AlternatePart= 
+Variation16=Designator=R36|UniqueId=\DKUROFHD\CZTBYZPE|Kind=1|AlternatePart= 
+Variation17=Designator=R37|UniqueId=\DKUROFHD\MNYJDTUF|Kind=1|AlternatePart= 
+Variation18=Designator=R38|UniqueId=\DKUROFHD\SCJCXMAP|Kind=1|AlternatePart= 
+Variation19=Designator=R39|UniqueId=\DKUROFHD\ZAJAEQYB|Kind=1|AlternatePart= 
+Variation20=Designator=R40|UniqueId=\DKUROFHD\HHOXLZSJ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -449,116 +454,86 @@ OutputName6=Tango Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=SIMPLISNetlist
-OutputName7=SIMPLIS
+OutputType7=TelesisNetlist
+OutputName7=Telesis Netlist
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=XSpiceNetlist
-OutputName8=XSpice Netlist
+OutputType8=WireListNetlist
+OutputName8=WireList Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=SIMetrixNetlist
-OutputName9=SIMetrix
+OutputType9=PCADnltNetlist
+OutputName9=PCADnlt Netlist
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=TelesisNetlist
-OutputName10=Telesis Netlist
+OutputType10=EESofNetlist
+OutputName10=EESof Netlist
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=WireListNetlist
-OutputName11=WireList Netlist
+OutputType11=IntergraphNetlist
+OutputName11=Intergraph Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
+OutputType12=EDIF
+OutputName12=EDIF for PCB
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=EESofNetlist
-OutputName13=EESof Netlist
+OutputType13=CadnetixNetlist
+OutputName13=Cadnetix Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=IntergraphNetlist
-OutputName14=Intergraph Netlist
+OutputType14=CalayNetlist
+OutputName14=Calay Netlist
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=EDIF
-OutputName15=EDIF for PCB
+OutputType15=MentorBoardStationNetlist
+OutputName15=Mentor BoardStation Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=CadnetixNetlist
-OutputName16=Cadnetix Netlist
+OutputType16=Pcad
+OutputName16=Pcad for PCB
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=CalayNetlist
-OutputName17=Calay Netlist
+OutputType17=PCADNetlist
+OutputName17=PCAD Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=MentorBoardStationNetlist
-OutputName18=Mentor BoardStation Netlist
+OutputType18=PADSNetlist
+OutputName18=PADS ASCII Netlist
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=Pcad
-OutputName19=Pcad for PCB
+OutputType19=MultiWire
+OutputName19=MultiWire
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=PCADNetlist
-OutputName20=PCAD Netlist
+Configuration19_Name1=ForceUpdateSettings
+Configuration19_Item1=False
+Configuration19_Name2=OutputConfigurationParameter1
+Configuration19_Item2=NetlistVersion=0|Record=MultiWireView
+OutputType20=OrCadPCB2Netlist
+OutputName20=Orcad/PCB2 Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=PADSNetlist
-OutputName21=PADS ASCII Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=MultiWire
-OutputName22=MultiWire
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-Configuration22_Name1=ForceUpdateSettings
-Configuration22_Item1=False
-Configuration22_Name2=OutputConfigurationParameter1
-Configuration22_Item2=NetlistVersion=0|Record=MultiWireView
-OutputType23=OrCadPCB2Netlist
-OutputName23=Orcad/PCB2 Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
