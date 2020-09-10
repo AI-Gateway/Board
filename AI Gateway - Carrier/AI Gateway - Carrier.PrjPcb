@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -39,7 +39,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=Schematics\00-ARCHITECTURE.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -56,7 +56,7 @@ DocumentUniqueId=FHBZYIXD
 
 [Document2]
 DocumentPath=Schematics\01-SOM.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -73,7 +73,7 @@ DocumentUniqueId=WZTXIDAW
 
 [Document3]
 DocumentPath=Schematics\02-POWER SUPPLY.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -90,7 +90,7 @@ DocumentUniqueId=CGQHUAYR
 
 [Document4]
 DocumentPath=Schematics\03-SERIAL.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -107,7 +107,7 @@ DocumentUniqueId=NXGJQUGH
 
 [Document5]
 DocumentPath=Schematics\05-SD CARD.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -124,7 +124,7 @@ DocumentUniqueId=RZMPDXJZ
 
 [Document6]
 DocumentPath=Schematics\06-ETHERNET.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -141,7 +141,7 @@ DocumentUniqueId=YUALSYON
 
 [Document7]
 DocumentPath=Schematics\07-USB.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -158,7 +158,7 @@ DocumentUniqueId=THBOQZSM
 
 [Document8]
 DocumentPath=Schematics\08-THREAD.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -175,7 +175,7 @@ DocumentUniqueId=UBFMXHVI
 
 [Document9]
 DocumentPath=Schematics\09-WIFI.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -192,7 +192,7 @@ DocumentUniqueId=EOMOABQS
 
 [Document10]
 DocumentPath=Schematics\10-MODEM.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -345,7 +345,7 @@ DocumentUniqueId=XTUTNXVD
 
 [Document19]
 DocumentPath=Schematics\11-ANALOG.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -362,7 +362,7 @@ DocumentUniqueId=IAPDEIEH
 
 [Document20]
 DocumentPath=Schematics\13-EXTENSION.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -377,12 +377,46 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CMQTTOHN
 
+[Document21]
+DocumentPath=Schematics\12-RS485.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document22]
+DocumentPath=Schematics\03-SERIAL.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=395EB44B-2C5B-4784-9AD0-A7F267486C61
 Description=AI_Gateway_Carrier_Proto
 AllowFabrication=0
 ParameterCount=0
-VariationCount=20
+VariationCount=23
 Variation1=Designator=U4|UniqueId=\WCCJKCPB\TXEQHYQW|Kind=1|AlternatePart= 
 Variation2=Designator=C46|UniqueId=\WCCJKCPB\CTGZFRWO|Kind=1|AlternatePart= 
 Variation3=Designator=C45|UniqueId=\WCCJKCPB\AZIWSKBF|Kind=1|AlternatePart= 
@@ -403,6 +437,9 @@ Variation17=Designator=R37|UniqueId=\DKUROFHD\MNYJDTUF|Kind=1|AlternatePart=
 Variation18=Designator=R38|UniqueId=\DKUROFHD\SCJCXMAP|Kind=1|AlternatePart= 
 Variation19=Designator=R39|UniqueId=\DKUROFHD\ZAJAEQYB|Kind=1|AlternatePart= 
 Variation20=Designator=R40|UniqueId=\DKUROFHD\HHOXLZSJ|Kind=1|AlternatePart= 
+Variation21=Designator=R66|UniqueId=\CKJGVOAI\DLJPPTHM|Kind=1|AlternatePart= 
+Variation22=Designator=R12|UniqueId=\CKJGVOAI\YUPCEAGH|Kind=1|AlternatePart= 
+Variation23=Designator=R13|UniqueId=\CKJGVOAI\ICZPZODN|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
