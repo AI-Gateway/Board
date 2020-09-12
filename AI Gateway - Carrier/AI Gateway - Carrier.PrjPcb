@@ -39,7 +39,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=Schematics\00-ARCHITECTURE.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -56,7 +56,7 @@ DocumentUniqueId=FHBZYIXD
 
 [Document2]
 DocumentPath=Schematics\01-SOM.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -73,7 +73,7 @@ DocumentUniqueId=WZTXIDAW
 
 [Document3]
 DocumentPath=Schematics\02-POWER SUPPLY.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -90,7 +90,7 @@ DocumentUniqueId=CGQHUAYR
 
 [Document4]
 DocumentPath=Schematics\03-SERIAL.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -107,7 +107,7 @@ DocumentUniqueId=NXGJQUGH
 
 [Document5]
 DocumentPath=Schematics\05-SD CARD.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -124,7 +124,7 @@ DocumentUniqueId=RZMPDXJZ
 
 [Document6]
 DocumentPath=Schematics\06-ETHERNET.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -141,7 +141,7 @@ DocumentUniqueId=YUALSYON
 
 [Document7]
 DocumentPath=Schematics\07-USB.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -158,7 +158,7 @@ DocumentUniqueId=THBOQZSM
 
 [Document8]
 DocumentPath=Schematics\08-THREAD.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -192,7 +192,7 @@ DocumentUniqueId=EOMOABQS
 
 [Document10]
 DocumentPath=Schematics\10-MODEM.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -209,7 +209,7 @@ DocumentUniqueId=WHTETGDU
 
 [Document11]
 DocumentPath=Schematics\12-RS485.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -345,7 +345,7 @@ DocumentUniqueId=XTUTNXVD
 
 [Document19]
 DocumentPath=Schematics\11-ANALOG.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -362,7 +362,7 @@ DocumentUniqueId=IAPDEIEH
 
 [Document20]
 DocumentPath=Schematics\13-EXTENSION.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -462,12 +462,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document26]
+DocumentPath=Schematics\13-EXTENSION.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=395EB44B-2C5B-4784-9AD0-A7F267486C61
 Description=AI_Gateway_Carrier_Proto
 AllowFabrication=0
 ParameterCount=0
-VariationCount=23
+VariationCount=26
 Variation1=Designator=U4|UniqueId=\WCCJKCPB\TXEQHYQW|Kind=1|AlternatePart= 
 Variation2=Designator=C46|UniqueId=\WCCJKCPB\CTGZFRWO|Kind=1|AlternatePart= 
 Variation3=Designator=C45|UniqueId=\WCCJKCPB\AZIWSKBF|Kind=1|AlternatePart= 
@@ -491,6 +508,9 @@ Variation20=Designator=R40|UniqueId=\DKUROFHD\HHOXLZSJ|Kind=1|AlternatePart=
 Variation21=Designator=R66|UniqueId=\CKJGVOAI\DLJPPTHM|Kind=1|AlternatePart= 
 Variation22=Designator=R12|UniqueId=\CKJGVOAI\YUPCEAGH|Kind=1|AlternatePart= 
 Variation23=Designator=R13|UniqueId=\CKJGVOAI\ICZPZODN|Kind=1|AlternatePart= 
+Variation24=Designator=R82|UniqueId=\ZJNJTXHA\SLJJTCBV|Kind=1|AlternatePart= 
+Variation25=Designator=R85|UniqueId=\ZJNJTXHA\ILEXATAT|Kind=1|AlternatePart= 
+Variation26=Designator=R84|UniqueId=\ZJNJTXHA\PWRODQNH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -616,12 +636,42 @@ OutputName20=Orcad/PCB2 Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=SIMetrixNetlist
+OutputName21=SIMetrix
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=SIMPLISNetlist
+OutputName22=SIMPLIS
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=XSpiceNetlist
+OutputName23=XSpice Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
