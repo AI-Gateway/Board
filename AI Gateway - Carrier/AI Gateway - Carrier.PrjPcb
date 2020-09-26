@@ -530,6 +530,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JEQVFFGK
 
+[Document30]
+DocumentPath=AI Gateway - Carrier.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SJCFYYFM
+
 [ProjectVariant1]
 UniqueID=395EB44B-2C5B-4784-9AD0-A7F267486C61
 Description=AI_Gateway_Carrier_Proto
