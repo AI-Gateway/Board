@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=AI Gateway.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\AI Gateway - Carrier\AI Gateway - Carrier.PrjPcb
+Record=SubProject|SourceDocument=AI Gateway.MbsDoc|ProjectPath=..\AI Gateway - Carrier\AI Gateway - Carrier.PrjPcb
+Record=DiagramHierarchy|SourceDocument=AI Gateway.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\AI Gateway - Thread Module\ThreadModule.PrjPCB
+Record=SubProject|SourceDocument=AI Gateway.MbsDoc|ProjectPath=..\AI Gateway - Thread Module\ThreadModule.PrjPCB
