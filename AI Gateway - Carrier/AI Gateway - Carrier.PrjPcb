@@ -631,10 +631,6 @@ Variation41=Designator=C43|UniqueId=\ZJNJTXHA\LFAZDIBV|Kind=1|AlternatePart=
 Variation42=Designator=C42|UniqueId=\ZJNJTXHA\YCKIGHBG|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for AI Gateway - Carrier\Design Rule Check - AI Gateway - Carrier.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Revision
 Value=A
